@@ -67,7 +67,6 @@ object Config {
     // ("small tree", "smoke tree", ...), the Russian build matches «смотри»; see build.gradle.kts.
     // Only at the START of a phrase (optionally after "hey"/"ok"), so "give me a summary"
     // or «посмотри» mid-sentence don't wake it.
-    val WAKE_WORDS: List<String> = BuildConfig.WAKE_WORDS.split("|")
+    val WAKE_WORDS: List<String> = listOf("jarvis", "jar vis")
     val WAKE_MODEL_ASSET: String = BuildConfig.WAKE_MODEL_ASSET
-    const val WAKE_HINT = "\"Smotri\""
-}
+    const val WAKE_HINT = "\"Jarvis\""
