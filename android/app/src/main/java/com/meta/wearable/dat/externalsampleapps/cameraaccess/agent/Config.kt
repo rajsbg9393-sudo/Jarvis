@@ -70,3 +70,4 @@ object Config {
     val WAKE_WORDS: List<String> = listOf("jarvis", "jar vis")
     val WAKE_MODEL_ASSET: String = BuildConfig.WAKE_MODEL_ASSET
     const val WAKE_HINT = "Jarvis"
+}
